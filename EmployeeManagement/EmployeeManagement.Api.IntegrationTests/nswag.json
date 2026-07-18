@@ -1,0 +1,30 @@
+{
+  "runtime": "Net80",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "fromDocument": {
+      "url": "https://localhost:7055/swagger/v1/swagger.json",
+      "output": null
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpClient": {
+      "clientBaseClass": null,
+      "generateClientClasses": true,
+      "generateClientInterfaces": true,
+      "injectHttpClient": true,
+      "generateExceptionClasses": true,
+      "generateNullableReferenceTypes": true,
+      "exceptionClass": "EmployeeManagementApiIntegrationTestsException",
+      "namespace": "Internship.EmployeeManagement.Api.IntegrationTests.NSwag.Generated",
+      "output": "NSwag/Generated/EmployeeManagementApiIntegrationTestsClient.cs",
+      "className": "EmployeeManagementClient",
+      "operationGenerationMode": "SingleClientFromOperationId",
+      "generateResponseClasses": true,
+      "wrapResponses": true,
+      "generateOptionalParameters": true,
+      "dateType": "System.DateTime",
+      "jsonLibrary": "SystemTextJson"
+    }
+  }
+}
